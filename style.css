@@ -1,0 +1,379 @@
+/*------------------HOME PAGE STYLES-----------------------------------------------------------------------------*/
+
+#my-home-body{
+    background-image:url(img/fam3.jpg);
+    background-position: fixed ;
+    background-position: top;
+
+
+
+}
+header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: url(img/background.jpg) top center;
+    overflow-y: auto;
+}
+
+footer{
+	padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #040b14;
+    text-align: center;
+}
+	
+}
+#footer-para{
+	color: red;
+	font-family: normal;
+}
+#my-footer{
+	color: red;
+}
+.profile{
+	margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 60px;
+    height: 120px;
+
+
+}
+.rounded-circle {
+    border-radius: 60% !important;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+
+
+}
+.my-fam{
+	color: #fff;
+	font-size: 24px;
+    margin-top: 10px;
+    padding: 0;
+    font-weight: 600px;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: Arial sans-serif;
+}
+.nav-menu{
+	display: flex;
+    padding: 10px 15px;
+    line-height: 40px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 20px;
+    width: 200px;
+}
+#page-link{
+    color: blue;
+    margin-top: 15px;
+    left: 0;
+    text-decoration: none;
+    font-family: Arial sans-serif;
+    font-weight: bold;
+}
+#page-link:hover{
+    color: #fff;
+}
+
+
+#heading{
+    margin-left: 40%;
+    color:#2c2f3f ;
+    font-family: Copperplate Gothic Bold;
+    font-size: 35px;
+    margin-top: 2px;
+    white-space: pre-wrap;
+
+}
+#heading{
+    cursor: not-allowed;
+    animation: blink 5s infinite;
+    text-decoration: underline;
+    color: #aab;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#moving{
+    bottom: 0;
+
+}
+h4{
+    color: darkblue;
+}
+
+
+/*------------------ABOUT PAGE STYLES-----------------------------------------------------------------------------*/
+
+
+#about-body{
+    background-color: #aaa;
+}
+
+.family-section{
+    
+    width: 78%;
+    right: 0;
+    height: 600px;
+    display: flex;
+    margin-top: -8px;
+   padding-left: 10px;
+   background-color: lightgrey;
+   float: left;
+   margin-left: 300px;
+   padding-top: 40px;
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+  
+  
+}
+#self-img{
+    width: 20vw;
+    height: 300px;
+    border-radius: 4px;
+}
+#information{
+    color:rgb(100, 150, 255) ;
+    font-family: Arial sans-serif;
+    display: flex;
+    text-decoration: none;
+
+}
+
+#more-self-infor{
+    float: right;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+    color: #000;
+    font-family: monospace;
+}
+#more-self-infor:hover{
+    cursor: pointer;
+    color: #aaa;
+}
+.fam-members{
+    border: 3px solid;
+    display: inline-block;
+    width: 20vw;
+    height: 480px;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: transparent;
+    transition: transform 0.5s;
+    animation: move 2s infinite;
+
+}
+@keyframes move{
+    0%{
+        border-color: #ff3737;
+    }
+    25%{
+         border-color: #34c759;
+    }
+    75%{
+         border-color: #032b44;
+    }
+    100%{
+         border-color: #ffff00;
+    }
+}
+.fam-members:hover{
+    color: #333333;
+    background-color: #fff;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.fam-member1-to-space{
+    margin-left: 50px;
+}
+
+.back-to-home{
+    width: 40px;
+    height: 30px;
+   border-radius: 8px;
+   float: right;
+   margin-right: 20px;
+}
+.back-to-home:hover{
+    border: 2px solid rgb(100, 150, 255);
+     box-shadow: 10px 10px 5px #ccc;
+
+}
+.img-home{
+     width: 30px;
+    height: 25px;
+   border-radius: 8px;
+
+}
+.img-home:hover{
+    border: border: 2px solid rgb(100, 150, 255);
+}
+
+
+/*------------------Galary PAGE STYLES-----------------------------------------------------------------------------*/
+
+.gal-section{
+    width: 100%;
+    height: 600px;
+    margin-top: -15px;
+    background-color: grey;
+    margin-right: -16px;
+    margin-left: 320px;
+   
+}
+
+
+/*------------------Services PAGE STYLES-----------------------------------------------------------------------------*/
+
+.serv-section{
+    width: 100%;
+    height: 600px;
+    margin-top: -15px;
+    margin-right: -16px;
+    margin-left: 320px;
+    margin-bottom: 500px;
+}
+
+.service-image{
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 5px;
+
+}
+.service-image-style{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+.serv-img-div{
+    width: 100%;
+    height: 480px;
+    
+
+}
+.service-information{
+    width: 500px;
+    position: inherit;
+    display: inline-block;
+    margin-top: -300px;
+    display: flex;
+    margin-left: 450px;
+}
+.color-wipe {
+  animation: color-wipe 10s infinite;
+  font-size: 36px;
+}
+
+@keyframes color-wipe {
+  0% {
+    color: #FF0000; /* red */
+  }
+  20% {
+    color: #FFA500; /* orange */
+  }
+  40% {
+    color: #FFFF00; /* yellow */
+  }
+  60% {
+    color: #008000; /* green */
+  }
+  80% {
+    color: #0000FF; /* blue */
+  }
+  100% {
+    color: #FF0000; /* red */
+  }
+}
+.contact-details{
+    width: 100%;
+    height: 300px;
+}
+
+li{
+ 
+}
+.name-links{
+    text-decoration: none;
+    color: darkblue;
+    line-height: 30px;
+}
+.name-links:hover{
+    color: red;
+}
+
+
+.galary-pictures{
+    border: 3px solid;
+    display: inline-block;
+    width: 20vw;
+    height: 480px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    transition: transform 0.5s;
+    animation: move 2s infinite;
+
+}
+@keyframes move{
+    0%{
+        border-color: #ff3737;
+    }
+    25%{
+         border-color: #34c759;
+    }
+    75%{
+         border-color: #032b44;
+    }
+    100%{
+         border-color: #ffff00;
+    }
+}
+
+.space-bottom{
+    height: 150px;
+}
+.download-img{
+    text-decoration: none;
+    color: grey;
+    line-height: 40px;
+
+}
+.download-img:hover{
+    color: red;
+}
